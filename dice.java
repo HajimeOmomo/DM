@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 import java.util.Random;
 
 public class dice {
@@ -8,7 +8,7 @@ public class dice {
 
 	    System.out.println("What your name?");
 
-	    String name = scannar.next();
+	    String name = scanner.next();
 
 	    System.out.println("Hello, "+name+"!");
 
@@ -27,9 +27,9 @@ public class dice {
 		System.out.println("Total value: "+total);
 
 		if(total>7){
-		    System.out.println("You won.");
+		    System.out.println(name + " won!");
 		}else{
-		    System.out.println("You lose.");
+		    System.out.println(name +" lost!");
 		}
 		
 	}
