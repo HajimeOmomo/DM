@@ -18,7 +18,7 @@ public class dice {
 		
 		
 		int total=0;
-		for(int i=1;i<=2;i++){
+		for(int i=1;i<=3;i++){
 			int j= (int)(Math.random()*6+1);
 			System.out.println("Die "+i+": "+j);
 			total+=j;
@@ -26,7 +26,7 @@ public class dice {
 		
 		System.out.println("Total value: "+total);
 
-		if(total>7){
+		if(total>10){
 		    System.out.println(name + " won!");
 		}else{
 		    System.out.println(name +" lost!");
