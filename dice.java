@@ -15,6 +15,12 @@ public class dice {
 		}
 		
 		System.out.println("Total value: "+total);
+
+		if(total>7){
+		    System.out.println("You won.");
+		}else{
+		    System.out.println("You lose.");
+		}
 		
 	}
 }
